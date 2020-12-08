@@ -1,0 +1,1087 @@
+2020-12-07 22:45:20 Error: [Cake\Http\Exception\MissingControllerException] Controller class Desenvolvimento could not be found. in C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Desenvolvimento',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:146
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\[DesafioIteam]\webroot\index.php:40
+
+Request URL: /Desenvolvimento/%5bDesafioIteam%5d/
+Referer URL: http://localhost/Desenvolvimento/
+
+
+2020-12-07 23:17:14 Error: [Cake\Http\Exception\MissingControllerException] Controller class GetSaldoPessoa could not be found. in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'GetSaldoPessoa',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /GetSaldoPessoa
+
+
+2020-12-07 23:17:23 Error: [Cake\Controller\Exception\MissingActionException] Action PessoasController::getSaldoPessoa() could not be found, or is not accessible. in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php on line 508
+Exception Attributes: array (
+  'controller' => 'PessoasController',
+  'action' => 'getSaldoPessoa',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa
+
+
+2020-12-07 23:17:37 Error: [Cake\Http\Exception\MissingControllerException] Controller class Pessoa could not be found. in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Pessoa',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:46
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoa/GetSaldoPessoa
+
+
+2020-12-07 23:17:51 Error: [Cake\Controller\Exception\MissingActionException] Action PessoasController::getSaldoPessoa() could not be found, or is not accessible. in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php on line 508
+Exception Attributes: array (
+  'controller' => 'PessoasController',
+  'action' => 'getSaldoPessoa',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa
+
+
+2020-12-07 23:18:28 Error: [UnexpectedValueException] Controller actions can only return ResponseInterface instance or null. Got string instead. in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php on line 531
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa
+
+
+2020-12-07 23:22:15 Error: [Cake\View\Exception\MissingTemplateException] Template file `Pessoas\get_saldo_pessoa.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\templates\Pessoas\get_saldo_pessoa.php`
+- `C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\templates\Pessoas\get_saldo_pessoa.php`
+ in Pessoas\get_saldo_pessoa.php on line 1354
+Exception Attributes: array (
+  'file' => 'Pessoas\\get_saldo_pessoa.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Xampp7\\htdocs\\Desenvolvimento\\DesafioIteam\\templates\\',
+    1 => 'C:\\Xampp7\\htdocs\\Desenvolvimento\\DesafioIteam\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:696
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:538
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa
+
+
+2020-12-07 23:24:25 Error: [Error] Call to undefined method Cake\Http\Response::type() in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\PessoasController.php on line 118
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa
+
+
+2020-12-07 23:31:37 Error: [Cake\View\Exception\MissingTemplateException] Template file `Pessoas\add.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\templates\Pessoas\add.php`
+- `C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\templates\Pessoas\add.php`
+ in Pessoas\add.php on line 1354
+Exception Attributes: array (
+  'file' => 'Pessoas\\add.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Xampp7\\htdocs\\Desenvolvimento\\DesafioIteam\\templates\\',
+    1 => 'C:\\Xampp7\\htdocs\\Desenvolvimento\\DesafioIteam\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:696
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:538
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/add
+
+
+2020-12-07 23:32:59 Error: [Error] Call to a member function find() on null in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\PessoasController.php on line 125
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/1
+
+
+2020-12-07 23:33:00 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Debugger.php line=954 in [C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /Pessoas/GetSaldoPessoa/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-07 23:33:00 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /Pessoas/GetSaldoPessoa/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-07 23:33:00 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /Pessoas/GetSaldoPessoa/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-07 23:33:00 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /Pessoas/GetSaldoPessoa/1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-07 23:57:28 Error: [Cake\View\Exception\MissingTemplateException] Template file `Pessoas\get_saldo_pessoa.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\templates\Pessoas\get_saldo_pessoa.php`
+- `C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\templates\Pessoas\get_saldo_pessoa.php`
+ in Pessoas\get_saldo_pessoa.php on line 1354
+Exception Attributes: array (
+  'file' => 'Pessoas\\get_saldo_pessoa.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Xampp7\\htdocs\\Desenvolvimento\\DesafioIteam\\templates\\',
+    1 => 'C:\\Xampp7\\htdocs\\Desenvolvimento\\DesafioIteam\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:696
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:538
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/2
+
+
+2020-12-07 23:59:00 Error: [Error] Class 'Router' not found in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\config\routes.php on line 91
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:186
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:113
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:102
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:85
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:133
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/2
+
+
+2020-12-08 00:02:12 Error: [Error] Using $this when not in object context in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\RouteBuilder.php on line 918
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\config\routes.php:95
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:186
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:113
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:102
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:85
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:133
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/2
+
+
+2020-12-08 00:02:44 Error: [Cake\View\Exception\MissingTemplateException] Template file `Pessoas\get_saldo_pessoa.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\templates\Pessoas\get_saldo_pessoa.php`
+- `C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\templates\Pessoas\get_saldo_pessoa.php`
+ in Pessoas\get_saldo_pessoa.php on line 1354
+Exception Attributes: array (
+  'file' => 'Pessoas\\get_saldo_pessoa.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Xampp7\\htdocs\\Desenvolvimento\\DesafioIteam\\templates\\',
+    1 => 'C:\\Xampp7\\htdocs\\Desenvolvimento\\DesafioIteam\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:696
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:538
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/2
+
+
+2020-12-08 00:06:29 Warning: Warning (2): Declaration of App\Controller\PessoasController::initialize(array $config): void should be compatible with App\Controller\AppController::initialize(): void in [C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\PessoasController.php, line 12]
+Request URL: /Pessoas/GetSaldoPessoa/2
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+include - APP/Controller\PessoasController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 161
+Cake\Core\App::className() - CORE\src\Core\App.php, line 67
+Cake\Controller\ControllerFactory::getControllerClass() - CORE\src\Controller\ControllerFactory.php, line 146
+Cake\Controller\ControllerFactory::create() - CORE\src\Controller\ControllerFactory.php, line 44
+Cake\Http\BaseApplication::handle() - CORE\src\Http\BaseApplication.php, line 249
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE\src\Http\Middleware\CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE\src\Http\Middleware\BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE\src\Http\Runner.php, line 73
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 58
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 90
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-08 00:06:29 Error: [ArgumentCountError] Too few arguments to function App\Controller\PessoasController::initialize(), 0 passed in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php on line 213 and exactly 1 expected in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\PessoasController.php on line 15
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:213
+- ReflectionClass::newInstance() - [internal], line ??- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:56
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/2
+
+
+2020-12-08 00:06:29 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Debugger.php line=954 in [C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /Pessoas/GetSaldoPessoa/2
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-08 00:06:30 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /Pessoas/GetSaldoPessoa/2
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-08 00:06:30 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /Pessoas/GetSaldoPessoa/2
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-08 00:06:30 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /Pessoas/GetSaldoPessoa/2
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-08 00:07:44 Error: [Cake\View\Exception\MissingTemplateException] Template file `Pessoas\get_saldo_pessoa.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\templates\Pessoas\get_saldo_pessoa.php`
+- `C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\templates\Pessoas\get_saldo_pessoa.php`
+ in Pessoas\get_saldo_pessoa.php on line 1354
+Exception Attributes: array (
+  'file' => 'Pessoas\\get_saldo_pessoa.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Xampp7\\htdocs\\Desenvolvimento\\DesafioIteam\\templates\\',
+    1 => 'C:\\Xampp7\\htdocs\\Desenvolvimento\\DesafioIteam\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:696
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:538
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/2
+
+
+2020-12-08 00:13:39 Error: [Cake\View\Exception\MissingTemplateException] Template file `Pessoas\get_saldo_pessoa.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\templates\Pessoas\get_saldo_pessoa.php`
+- `C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\templates\Pessoas\get_saldo_pessoa.php`
+ in Pessoas\get_saldo_pessoa.php on line 1354
+Exception Attributes: array (
+  'file' => 'Pessoas\\get_saldo_pessoa.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Xampp7\\htdocs\\Desenvolvimento\\DesafioIteam\\templates\\',
+    1 => 'C:\\Xampp7\\htdocs\\Desenvolvimento\\DesafioIteam\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:696
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:538
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/2
+
+
+2020-12-08 00:15:23 Error: [Cake\View\Exception\MissingTemplateException] Template file `Pessoas\get_saldo_pessoa.php` could not be found.
+
+The following paths were searched:
+
+- `C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\templates\Pessoas\get_saldo_pessoa.php`
+- `C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\templates\Pessoas\get_saldo_pessoa.php`
+ in Pessoas\get_saldo_pessoa.php on line 1354
+Exception Attributes: array (
+  'file' => 'Pessoas\\get_saldo_pessoa.php',
+  'paths' => 
+  array (
+    0 => 'C:\\Xampp7\\htdocs\\Desenvolvimento\\DesafioIteam\\templates\\',
+    1 => 'C:\\Xampp7\\htdocs\\Desenvolvimento\\DesafioIteam\\vendor\\cakephp\\cakephp\\templates\\',
+  ),
+)
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\View\View.php:761
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:696
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:538
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/2
+
+
+2020-12-08 13:13:20 Error: [Error] Class 'App\Controller\Component\TableRegistry' not found in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\Component\GetDadosComponent.php on line 27
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Component.php:112
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php:133
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:108
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:286
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\AppController.php:46
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:213
+- ReflectionClass::newInstance() - [internal], line ??- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:56
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/1
+
+
+2020-12-08 13:13:57 Error: [Error] Class 'App\Controller\Component\TableRegistry' not found in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\Component\GetDadosComponent.php on line 27
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Component.php:112
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ComponentRegistry.php:133
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php:108
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:286
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\AppController.php:46
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:213
+- ReflectionClass::newInstance() - [internal], line ??- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:56
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:249
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/1
+
+
+2020-12-08 13:14:23 Error: [BadMethodCallException] Unknown method "isArray" in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php on line 503
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\ORM\Query.php:1299
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\Component\GetDadosComponent.php:43
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\PessoasController.php:129
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/1
+
+
+2020-12-08 13:15:54 Error: [Cake\Controller\Exception\MissingActionException] Action PessoasController::saldos() could not be found, or is not accessible. in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php on line 508
+Exception Attributes: array (
+  'controller' => 'PessoasController',
+  'action' => 'saldos',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/Saldos
+
+
+2020-12-08 13:18:02 Error: [Error] Call to a member function toArray() on array in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\PessoasController.php on line 130
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/1
+
+
+2020-12-08 13:38:33 Error: [Error] Call to a member function toArray() on array in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\PessoasController.php on line 141
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/1
+
+
+2020-12-08 13:39:35 Error: [Error] Call to a member function toArray() on array in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\PessoasController.php on line 141
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/1
+
+
+2020-12-08 13:41:28 Error: [Error] Call to a member function toArray() on array in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\PessoasController.php on line 141
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/1
+
+
+2020-12-08 13:51:42 Error: [UnexpectedValueException] Controller actions can only return ResponseInterface instance or null. Got App\Controller\PessoasController instead. in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php on line 531
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/1
+
+
+2020-12-08 13:54:06 Error: [UnexpectedValueException] Controller actions can only return ResponseInterface instance or null. Got App\Controller\PessoasController instead. in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php on line 531
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/1
+
+
+2020-12-08 13:55:25 Error: [Error] Call to undefined method Cake\Http\Response::body() in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\PessoasController.php on line 145
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/1
+
+
+2020-12-08 13:56:10 Error: [Error] Call to undefined method Cake\Http\Response::body() in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\PessoasController.php on line 146
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/1
+
+
+2020-12-08 13:57:00 Error: [Error] Call to undefined method Cake\Http\Response::body() in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\PessoasController.php on line 146
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/1
+
+
+2020-12-08 14:01:56 Error: [Error] Call to undefined method Cake\Http\Response::body() in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\PessoasController.php on line 146
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/1
+
+
+2020-12-08 14:09:15 Error: [Error] Call to undefined method Cake\Http\Response::body() in C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\src\Controller\PessoasController.php on line 147
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\DesafioIteam\webroot\index.php:40
+
+Request URL: /Pessoas/GetSaldoPessoa/1
+
+
