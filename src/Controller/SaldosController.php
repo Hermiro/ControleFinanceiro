@@ -102,4 +102,82 @@ class SaldosController extends AppController
 
         return $this->redirect(['action' => 'index']);
     }
+
+    /**
+     * Função: DoDebit
+     * Objetivo: Realiza a operação de débito
+     *           O primeiro parâmetro faz referencia a pessoa 
+     *           O segundo parâmetro faz referencia ao valor a ser debitado.
+     *           Ao final do processo atualiza o saldo total da conta.
+     *           Valida se o saldo ficar negativo.
+     */
+    public function doDebit($id = null, $valor = null){
+
+        //Declaração de variáveis.
+        $data = null;
+        $dados = null;
+        $saldo_inicial = null;
+        $saldo_final = null;
+        $valor_debito = null;
+        $check_num = null;
+        $array_id_null = array('Erro' => 'Nao foi informado um ID valido');
+        $array_valor_error = array('Erro' => 'Por favor, informe um valor numerico valido');
+        $array_saldo_negativo = array('Erro' => 'Saldo nao pode ser inferior a 0.');
+        $array_atualiza_saldo_error = array('Erro' => 'Nao foi possivel atualizar o saldo');
+        $array_atualiza_saldo_sucess = array('Sucesso' => 'Saldo atualizado com sucesso');
+        $array_aux = array();
+        $saldo_new = $this->Saldos->newEmptyEntity();
+        $saldotable = $this->getTableLocator()->get('Saldos');      
+           
+        //Validação dos inputs        
+        if (!($id) or !($valor)) {
+            return false;
+        }        
+
+        //Valida se o valor informado no saldo é float
+        $check_num = is_numeric($valor);
+        if(!($check_num)){
+                //Informa mensagem de erro
+                return $this->response->withType("application/json")->withStringBody(json_encode($array_valor_error));                
+        }
+
+        if(($id) and ($valor)){
+            //Recupera o valor do saldo da pessoa.
+            //$data = $this->GetDados->GetSaldos($id);
+            $data = $this->Saldos->get($id, [
+                'contain' => [],
+            ]);
+
+            //Se não retorna valor, pessoa não existe.
+            if (($data)) {
+                $saldo_inicial = $data->total_value;
+                $valor_debito = $valor;
+
+                //Realiza o débito
+                $saldo_final = $saldo_inicial - $valor_debito;
+
+                //Verifica se o valor é menor que zero.
+                if ($saldo_final < 0) {
+                    //Informa mensagem de erro
+                    return $this->response->withType("application/json")->withStringBody(json_encode($array_saldo_negativo));                
+                }
+                $data->total_value = $saldo_final;
+                $saldo_new = $data;
+
+                if ($this->Saldos->save($saldo_new)) {
+                    //Informa mensagem de sucesso
+                    $array_aux = array('Valor_atual' => $saldo_final);
+                    $array_atualiza_saldo_sucess = $this->ConfigMessage->ConfigMessage($array_atualiza_saldo_sucess, $array_aux);                    
+                    return $this->response->withType("application/json")->withStringBody(json_encode($array_atualiza_saldo_sucess));                
+
+                }else{
+                    //Informa mensagem de erro
+                    return $this->response->withType("application/json")->withStringBody(json_encode($array_atualiza_saldo_error));                
+                }           
+            }else{
+                //Informa mensagem de erro
+                return $this->response->withType("application/json")->withStringBody(json_encode($array_id_null));                
+            }
+        }
+    }
 }

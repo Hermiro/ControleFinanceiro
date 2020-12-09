@@ -120,9 +120,11 @@ class PessoasController extends AppController
         $dados = null;
         $resposta = null;
         $nome = null;
+        $array_aux = array();
+        $array_aux_2 = array();
 
         //Início
-        $this -> autoRender = false;  
+        //$this -> autoRender = false;  
         //Verifica se algum Id foi informado.
         if (!($id)) {
             //Informa mensagem de erro
@@ -140,7 +142,9 @@ class PessoasController extends AppController
             if(($data)){
             //Recupera o nome da pessoa.
             $nome = $this->GetDados->GetNomePessoa($data['0']['id_pessoa']); 
-            $resposta = array('Nome' => $nome, 'Saldo' => $data['0']['total_value']);            
+            $array_aux = array('Saldo' => $data['0']['total_value']);
+            $array_aux_2 = array('Nome' => $nome,);
+            $resposta = $this->ConfigMessage->ConfigMessage($array_aux_2, $array_aux);            
             return $this->response->withType("application/json")->withStringBody(json_encode($resposta));
             }
         }

@@ -71,8 +71,9 @@ class GetDadosComponent extends Component
             $dados = $data->toArray();
             if (!($dados)) {
                 return false;
-            }else{
-                return $dados;
+            }else{                
+                //Informa mensagem de erro
+                return $dados['1'];
             }
         }
     }
