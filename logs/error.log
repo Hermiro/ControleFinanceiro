@@ -2694,3 +2694,668 @@ Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
 Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
 [main] - ROOT\webroot\index.php, line 40
 
+2020-12-09 21:49:42 Error: [Error] Call to a member function FeedHistorico() on null in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php on line 255
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 21:49:42 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php line=954 in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 21:49:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 21:49:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 21:49:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 21:50:30 Error: [ArgumentCountError] Too few arguments to function Cake\ORM\Table::newEntity(), 0 passed in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php on line 104 and at least 1 expected in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php on line 2708
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php:104
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php:255
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 21:53:17 Error: [ArgumentCountError] Too few arguments to function Cake\ORM\Table::newEntity(), 0 passed in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php on line 105 and at least 1 expected in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php on line 2708
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php:105
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php:255
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 21:54:33 Error: [Error] Call to a member function newEntity() on null in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php on line 107
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php:255
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 21:54:33 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php line=954 in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 21:54:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 21:54:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 21:54:34 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 21:54:49 Error: [Error] Call to a member function newEntity() on null in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php on line 107
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php:255
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 21:54:49 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php line=954 in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 21:54:49 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 21:54:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 21:54:50 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 21:55:24 Error: [ArgumentCountError] Too few arguments to function Cake\ORM\Table::newEntity(), 0 passed in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php on line 107 and at least 1 expected in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php on line 2708
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php:107
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php:255
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 21:56:25 Error: [ArgumentCountError] Too few arguments to function Cake\ORM\Table::newEntity(), 0 passed in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php on line 107 and at least 1 expected in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php on line 2708
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php:107
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php:255
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 21:56:52 Error: [ArgumentCountError] Too few arguments to function Cake\ORM\Table::newEntity(), 0 passed in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php on line 107 and at least 1 expected in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php on line 2708
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php:107
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php:255
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 21:59:04 Error: [ArgumentCountError] Too few arguments to function Cake\ORM\Table::newEntity(), 0 passed in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php on line 106 and at least 1 expected in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php on line 2708
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php:106
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php:255
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 21:59:22 Error: [ArgumentCountError] Too few arguments to function Cake\ORM\Table::newEntity(), 0 passed in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php on line 106 and at least 1 expected in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php on line 2708
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php:106
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php:255
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 21:59:57 Error: [ArgumentCountError] Too few arguments to function Cake\ORM\Table::newEntity(), 0 passed in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php on line 106 and at least 1 expected in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php on line 2708
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php:106
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php:255
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 22:01:21 Error: [Error] Call to a member function newEntity() on null in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php on line 106
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php:255
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 22:01:21 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php line=954 in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 22:01:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 22:01:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 22:01:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php:954) in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 22:02:33 Error: [ArgumentCountError] Too few arguments to function Cake\ORM\Table::newEntity(), 0 passed in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php on line 107 and at least 1 expected in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php on line 2708
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php:107
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php:255
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 22:11:28 Error: [ArgumentCountError] Too few arguments to function Cake\ORM\Table::newEntity(), 0 passed in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php on line 107 and at least 1 expected in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php on line 2708
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php:107
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php:255
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 22:22:54 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`teste_iteam`.`historicos`, CONSTRAINT `Operação` FOREIGN KEY (`operacao_id`) REFERENCES `operacoes` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:178
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:74
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Connection.php:341
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Connection.php:344
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Query.php:249
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php:2042
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php:1934
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php:1835
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php:1535
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Connection.php:691
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php:1536
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php:1836
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php:114
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php:255
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 22:24:09 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`teste_iteam`.`historicos`, CONSTRAINT `Pessoa Destino` FOREIGN KEY (`pessoa_destino_id`) REFERENCES `pessoas` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 39
+Stack Trace:
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php:39
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php:178
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php:74
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Connection.php:341
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php:70
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Connection.php:344
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Query.php:249
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php:2042
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php:1934
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php:1835
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php:1535
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Database\Connection.php:691
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php:1536
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\ORM\Table.php:1836
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\Component\GetDadosComponent.php:115
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\src\Controller\SaldosController.php:255
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\Controller.php:529
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:79
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\BaseApplication.php:251
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:156
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:159
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:166
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:121
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\webroot\index.php:40
+
+Request URL: /Saldos/DoCredit/2/56
+
+
+2020-12-09 22:45:46 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php line=1014 in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 71]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 22:45:46 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php:1014) in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 168]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 22:45:46 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php:1014) in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+
+2020-12-09 22:45:46 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Error\Debugger.php:1014) in [C:\Xampp7\htdocs\Desenvolvimento\ControleFinanceiro\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 197]
+Request URL: /Saldos/DoCredit/2/56
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT\vendor\cakephp\debug_kit\src\Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 128
+[main] - ROOT\webroot\index.php, line 40
+

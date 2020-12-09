@@ -12,6 +12,7 @@ use Cake\Core\Exception\Exception;
     $data  = null;
     $dados = null;
     $table = null;
+
 /**
  * GetDados component
  */
@@ -78,4 +79,44 @@ class GetDadosComponent extends Component
         }
     }
 
+    /**
+     * Função: FeedHistorico
+     * Objetivo: Alimentar a tabela de historico dados valores iniciais.
+     *           Os parâmetros de entrada são exatamente os campos da tabela 'Histórico'
+     *           As operações são cadastradas em tabela sendo:
+     *           1 - Crédito
+     *           2 - Debito
+     *           3 - Transferencias.
+     */
+    public function FeedHistorico($array_in = null){
+
+        //Declaração de variáveis
+
+
+        //Verifica a entrada de dados.
+        if(!($array_in)){
+            return false;
+        }
+
+        if (($array_in)) {
+            $this->historictable = TableRegistry::get('Historicos');
+            $this->historictable = TableRegistry::getTableLocator()->get('Historicos');          
+            $historico = $this->historictable->newEmptyEntity();
+
+            //Configura os campos 
+            $historico->pessoa_id = $array_in['Pessoa_id'];
+            $historico->pessoa_destino_id = $array_in['Pessoa_destino'];
+            $historico->operacao_id = $array_in['Operacao_id'];
+            $historico->valor = $array_in['Valor'];
+            $historico->valor_anterior = $array_in['Valor_anterior'];
+            $historico->valor_final = $array_in['Valor_final'];
+
+            //Executa o save.
+            if ($this->historictable->save($historico)) {
+                return true;
+            }else{
+                return false;
+            }
+        }         
+    }
 }
