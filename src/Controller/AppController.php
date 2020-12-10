@@ -45,6 +45,7 @@ class AppController extends Controller
         $this->loadComponent('Flash');
         $this->loadComponent('GetDados');
         $this->loadComponent('ConfigMessage');
+        $this->loadComponent('ConfigDate');
 
         /*
          * Enable the following component for recommended CakePHP form protection settings.

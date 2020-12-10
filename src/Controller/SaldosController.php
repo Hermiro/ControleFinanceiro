@@ -285,4 +285,37 @@ class SaldosController extends AppController
         }        
 
     }
+
+    /**
+     * Função: GetHistoric
+     * Objetivo: Recuperar o histórico de operações dados um ID
+     */
+    public function getHistoric($id = null){
+
+        //Declaração de variaveis
+        $array_return_param_error = array('Erro' => 'Parametros insuficientes');
+        $array_return_data_null_error = array('Erro' => 'Nao foram encontrados dados historicos para esta pessoa.');
+
+        //Valida input
+        if (!($id)) {
+            //Informa mensagem de erro
+            return $this->response->withType("application/json")->withStringBody(json_encode($array_return_param_error));                
+        }
+
+        if(($id)){
+            $data = $this->GetDados->GetHistoric($id);
+
+            //Se o valor for FALSE, retorna a mensagem de erro
+            if (!($data)) {
+                //Informa mensagem de erro
+                return $this->response->withType("application/json")->withStringBody(json_encode($array_return_data_null_error));                                
+            }
+
+            if(($data)){
+                return $this->response->withType("application/json")->withStringBody(json_encode($data));                                
+            }
+            //debug($data);
+            //die("Hermiro");
+        }
+    }
 }

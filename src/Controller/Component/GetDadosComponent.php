@@ -12,7 +12,8 @@ use Cake\Core\Exception\Exception;
     $data  = null;
     $dados = null;
     $table = null;
-
+    $nome = null;
+    $operacao = null;
 /**
  * GetDados component
  */
@@ -24,6 +25,9 @@ class GetDadosComponent extends Component
      * @var array
      */
     protected $_defaultConfig = [];
+
+    //Outros Componentes 
+    public $components = ['ConfigDate', 'ConfigMessage'];    
     
     public function initialize(array $config):void {
         parent::initialize($config);        
@@ -73,10 +77,54 @@ class GetDadosComponent extends Component
             if (!($dados)) {
                 return false;
             }else{                
-                //Informa mensagem de erro
-                return $dados['1'];
+                return $dados = array_values($dados);
             }
         }
+    }
+
+    /**
+     * Função: GetOperacaoName
+     * Objetivo: Recupera o nome da operação dado o ID
+     */
+    public function GetOperacaoName($id = null){
+
+        //Valida input
+        if (!($id)) {
+            return false;
+        }
+
+        if(($id)){
+            $this->operacaoTable = TableRegistry::get('Operacoes');
+            $this->operacaoTable = TableRegistry::getTableLocator()->get('Operacoes');  
+            
+            $data = $this->operacaoTable->find('list', ['conditions' => ['Operacoes.id' => "$id"]]);
+            $dados = $data->toArray();
+
+            if (!($dados)) {
+                return false;
+            }
+
+            if(($dados)){
+                return $dados = array_values($dados);
+            }
+        }
+    }
+
+    /**
+     * Função: NumberFormatForBRL
+     * Objetivo: Configurar o número informado para real (BRL)
+     */
+    public function NumberFormatForBRL ($value = null){
+
+        if (empty($value)) {
+            return false;
+        }
+
+        if (!empty($value)) {
+            $value = "R$ ".number_format($value,2,",",".");
+            return $value;
+        }
+
     }
 
     /**
@@ -118,5 +166,62 @@ class GetDadosComponent extends Component
                 return false;
             }
         }         
+    }
+
+    /**
+     * Função: GetHistoric
+     * Objetivo: Retornar o historico dados um ID
+     */
+    public function GetHistoric($id = null){
+
+        //Declaração da variáveis
+        $array_out = array();
+        $array_out_aux = array();
+
+        //Valida input
+        if(!($id)){
+            return false;
+        }     
+        
+        if(($id)){
+            $this->historictable = TableRegistry::get('Historicos');
+            $this->historictable = TableRegistry::getTableLocator()->get('Historicos');   
+            $data = $this->historictable->find('all', ['conditions' => ['Historicos.pessoa_id' => "$id"]]);
+            $dados = $data->toArray();  
+            
+            //Se o valor de $dados não for encontrado retorna FALSE
+            if(!($dados)){
+                return false;
+            }         
+            
+            //Configura o array de saída
+            if (($dados)) {
+                foreach($dados as $key => $value):
+
+                    $nome = $this->GetNomePessoa($value->pessoa_id);
+                    $operacao = $this->GetOperacaoName($value->operacao_id);
+                    
+                    $array_out_aux = array(     'Pessoa' => $nome['0'],
+                                                'Operacao' => $operacao['0'],
+                                                'Destinatario' => $nome['0'],
+                                                'Valor_operacao' => $this->NumberFormatForBRL($value->valor), 
+                                                'Valor_anterior' => $this->NumberFormatForBRL($value->valor_anterior),
+                                                'Valor_final' => $this->NumberFormatForBRL($value->valor_final));
+
+                    if(!($array_out)){
+                        $array_out[$key] = $array_out_aux;                        
+                    }else{                        
+                        $key = $key++;
+                        $array_out[$key] = $array_out_aux;
+                    }
+                    $array_out_aux = array();                                                           
+                endforeach;
+                return $array_out;
+            }
+
+            if(!($data)){
+                return false;
+            }
+        }
     }
 }
