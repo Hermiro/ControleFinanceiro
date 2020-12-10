@@ -13,6 +13,7 @@ use Cake\Core\Exception\Exception;
     $dados = null;
     $table = null;
     $nome = null;
+    $nome_destino =null;
     $operacao = null;
 /**
  * GetDados component
@@ -158,6 +159,8 @@ class GetDadosComponent extends Component
             $historico->valor = $array_in['Valor'];
             $historico->valor_anterior = $array_in['Valor_anterior'];
             $historico->valor_final = $array_in['Valor_final'];
+            $historico->valor_anterior_pessoa_destino = $array_in['Valor_anterior_pessoa_destino'];
+            $historico->valor_final_pessoa_destino = $array_in['Valor_final_pessoa_destino'];
 
             //Executa o save.
             if ($this->historictable->save($historico)) {
@@ -186,28 +189,74 @@ class GetDadosComponent extends Component
         if(($id)){
             $this->historictable = TableRegistry::get('Historicos');
             $this->historictable = TableRegistry::getTableLocator()->get('Historicos');   
-            $data = $this->historictable->find('all', ['conditions' => ['Historicos.pessoa_id' => "$id"]]);
+
+            $data = $this->historictable->find('all', ['conditions' => ['Historicos.pessoa_id' => "$id"]]);            
             $dados = $data->toArray();  
-            
+
+            //Recupera informações sobre transferências
+            $data_aux = $this->historictable->find('all', ['conditions' => ['Historicos.pessoa_destino_id' => "$id"]]);
+            $dados_aux = $data_aux->toArray();
+
             //Se o valor de $dados não for encontrado retorna FALSE
-            if(!($dados)){
+            if(!($dados) and !($dados_aux)){
                 return false;
             }         
+
+            //Se o valor da dados estiver vazio porém houver dados de transferencia, iguala.
+            if(!($dados) and ($dados_aux)){
+                $dados = $dados_aux;
+            }
             
+            //Se houver valores nos dois arrays, combina.
+            if(($dados) and ($dados_aux)){
+                $last_key = array_key_last($dados);
+                $last_key = $last_key + 1;
+                //debug($last_key);
+                foreach($dados_aux as $key => $value):
+                    $dados[$last_key] = $value;
+                    $last_key = $last_key + 1;
+                endforeach;
+            }           
+
+
             //Configura o array de saída
             if (($dados)) {
                 foreach($dados as $key => $value):
 
                     $nome = $this->GetNomePessoa($value->pessoa_id);
+                    $nome_destino = $this->GetNomePessoa($value->pessoa_destino_id);
                     $operacao = $this->GetOperacaoName($value->operacao_id);
                     
-                    $array_out_aux = array(     'Pessoa' => $nome['0'],
-                                                'Operacao' => $operacao['0'],
-                                                'Destinatario' => $nome['0'],
-                                                'Valor_operacao' => $this->NumberFormatForBRL($value->valor), 
-                                                'Valor_anterior' => $this->NumberFormatForBRL($value->valor_anterior),
-                                                'Valor_final' => $this->NumberFormatForBRL($value->valor_final));
+                    if($value->operacao_id == 3){
 
+                        //Quando o IF informado for diferente do ID do campo pessoa ID
+                        if($value->pessoa_id <> $id){
+                            $array_out_aux = array(     'Pessoa' => $nome['0'],
+                            'Operacao' => $operacao['0'],
+                            'Destinatario' => $nome_destino['0'],
+                            'Valor_operacao' => $this->NumberFormatForBRL($value->valor), 
+                            'Valor_anterior' => $this->NumberFormatForBRL($value->valor_anterior_pessoa_destino),
+                            'Valor_final' => $this->NumberFormatForBRL($value->valor_final_pessoa_destino));
+                        }
+
+                        //Quando forem iguais, significa que a receptor está olhando seu histórico.
+                        if($value->pessoa_id == $id){
+                            $array_out_aux = array(     'Pessoa' => $nome['0'],
+                            'Operacao' => $operacao['0'],
+                            'Destinatario' => $nome_destino['0'],
+                            'Valor_operacao' => $this->NumberFormatForBRL($value->valor), 
+                            'Valor_anterior' => $this->NumberFormatForBRL($value->valor_anterior),
+                            'Valor_final' => $this->NumberFormatForBRL($value->valor_final));
+                        }                 
+
+
+                    } else{
+                        $array_out_aux = array(     'Pessoa' => $nome['0'],
+                                                    'Operacao' => $operacao['0'],
+                                                    'Valor_operacao' => $this->NumberFormatForBRL($value->valor), 
+                                                    'Valor_anterior' => $this->NumberFormatForBRL($value->valor_anterior),
+                                                    'Valor_final' => $this->NumberFormatForBRL($value->valor_final));                        
+                    }   
                     if(!($array_out)){
                         $array_out[$key] = $array_out_aux;                        
                     }else{                        

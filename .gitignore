@@ -2,8 +2,8 @@
 ##########################
 #/config/app_local.php
 #/config/.env
-#/logs/*
-#/tmp/*
+/logs/*
+/tmp/*
 #vendor/*
 
 # OS generated files #
