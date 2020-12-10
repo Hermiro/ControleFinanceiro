@@ -1,3 +1,33 @@
+## Instação XAMP no Linux.
+
+Para utilizar a aplicação no ambiente Linux, recomendamos a utilização do pacote XAMPP.
+Siga as instruções desta página(https://www.edivaldobrito.com.br/como-instalar-o-xampp-no-linux/) criada por Edivaldo Brito para maiores informações.
+
+Em seguida, acesse o PHPMYADMIN dentro do XAMP e faça a importação do banco de dados, utilizando um dos arquivos disponíveis: teste_item.csv ou teste_item.sql
+
+Por último, faça um clone ou baixe/descompacte esta aplicação dentro da pasta httdocs no XAMPP.
+
+#Modo de utilização.
+
+Acesse o endereço htttp:localhost/ControleFinanceiro-mains para visualizar a página de boas vindas padrão do cakephp.
+Abaixo estão os endereços da API.
+
+Visualizar o saldo de uma pessoa:
+* htttp:localhost/ControleFinanceiro-mains/Pessoas/GetSaldoPessoa/1 (onde o numero indica o ID de uma pessoa).
+
+Visualizar o histórico de uma pessoa:
+* htttp:localhost/ControleFinanceiro-mains/Saldos/GetHistoric/1 (onde o numero indica o ID de uma pessoa).
+
+Efetuar um débito na conta de uma pessoa:
+* htttp:localhost/ControleFinanceiro-mains/Saldos/DoDebit/1/25 (onde o primeiro numero indica o ID de uma pessoa e o segundo numero indica o valor a ser debitado).
+
+Efetuar um crédito na conta de uma pessoa:
+* htttp:localhost/ControleFinanceiro-mains/Saldos/DoCredit/1/25 (onde o primeiro numero indica o ID de uma pessoa e o segundo numero indica o valor a ser creditado).
+
+Efetuar uma transferência na conta de uma pessoa:
+* htttp:localhost/ControleFinanceiro-mains/Saldos/DoTransfer/1/25/2 (onde o primeiro numero indica o ID de uma pessoa e o segundo numero indica o valor a ser creditado e o 
+terceiro parâmetro é o receptor da transferência).
+
 # CakePHP Application Skeleton
 
 [![Build Status](https://img.shields.io/github/workflow/status/cakephp/app/CakePHP%20App%20CI/master?style=flat-square)](https://github.com/cakephp/app/actions)
